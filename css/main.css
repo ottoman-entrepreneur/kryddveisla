@@ -370,6 +370,9 @@ img {
   padding: 0;
   list-style: none;
 }
+.unstyled-list a {
+  text-decoration: none;
+}
 
 .lg-screen {
   display: none;
@@ -590,13 +593,16 @@ footer a {
   opacity: 0.8;
 }
 
-.nav-footer {
-  display: flex;
-  flex-wrap: wrap;
+.nav-footer li {
+  width: 100%;
+}
+.nav-footer li a {
+  font-size: 1.1rem;
+  padding: 0.25em;
 }
 
-.nav-footer > * {
-  flex: 1 1 15em;
+.copyrights {
+  margin-top: 50px;
 }
 
 .btn {
